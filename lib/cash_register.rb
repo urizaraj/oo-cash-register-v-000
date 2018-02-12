@@ -26,6 +26,6 @@ class CashRegister
   end
 
   def void_last_transaction
-
+    title, price, quantity = self.last_transaction
   end
 end
